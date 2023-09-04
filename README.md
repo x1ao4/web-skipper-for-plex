@@ -1,5 +1,5 @@
 # Plex Skipper
-使用 Plex Skipper 可以实现在 Plex Web 播放影片时自动跳过片头和片尾（当影片包含片头/片尾标记时），并自动播放下一集（当播放列表中存在下一集时）。
+使用 Plex Skipper 可以实现在 Plex Web 播放影片时自动跳过片头、片尾（当影片包含片头/片尾标记时）和自动播放下一集（当播放列表中存在下一集时）。
 
 ## 运行条件
 请确保您已经安装了 [Tampermonkey](https://www.tampermonkey.net/) 或其他用户脚本管理器。
