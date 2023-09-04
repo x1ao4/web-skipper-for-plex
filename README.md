@@ -21,7 +21,7 @@
 ```
 脚本启用后会自动检查页面上的「跳过片头」和「跳过片尾」按钮，并在它们出现时自动点击它们，从而实现自动跳过片头和片尾的功能。脚本还会检查「自动播放下一集」的元素是否存在，如果存在，则按下空格键来实现自动播放下一集的功能。
 
-这样，您就可以享受连续观看影片和剧集而不必手动跳过片头和片尾，以及手动选择下一集了。
+这样，您就可以享受连续观看影片和剧集而不必手动跳过片头和片尾，以及手动播放下一集了（不用等待 10 秒）。
 
 ## 注意事项
 - 如果脚本功能未生效，请检查 Plex Skipper 是否已经成功安装并启用。
@@ -51,7 +51,7 @@ The script will automatically enable itself when you visit the following URLs. I
 ```
 Once the script is enabled, it will automatically check for the presence of "Skip Intro" and "Skip Credits" buttons on the page and click them when they appear, enabling automatic skipping of intros and credits. The script will also check if the "Auto Play Next" element exists, if it does, it will press the spacebar to automatically play the next episode.
 
-This way, you can enjoy continuous watching of movies and TV shows without having to click to skip intros and credits or manually click to play the next episode.
+This way, you can enjoy continuous watching of movies and TV shows without having to manually skip intros and credits, as well as manually play the next episode (without waiting for 10 seconds).
 
 ## Notes
 - If the script's functionality does not work, ensure that Plex Skipper is installed and enabled.
