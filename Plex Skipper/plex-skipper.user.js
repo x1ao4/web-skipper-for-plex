@@ -10,6 +10,7 @@
 // @match              https://app.plex.tv/*
 // @match              http://localhost:32400/*
 // @match              http://127.0.0.1:32400/*
+// @license            MIT
 // @grant              none
 // ==/UserScript==
 
