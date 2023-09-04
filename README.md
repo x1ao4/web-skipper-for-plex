@@ -51,7 +51,7 @@ The script will automatically enable itself when you visit the following URLs. I
 ```
 Once the script is enabled, it will automatically check for the presence of "Skip Intro" and "Skip Credits" buttons on the page and click them when they appear, enabling automatic skipping of intros and credits. The script will also check if the "Auto Play Next" element exists, if it does, it will press the spacebar to automatically play the next episode.
 
-This way, you can enjoy continuous watching of movies and TV shows without having to manually skip intros and credits or manually select the next episode.
+This way, you can enjoy continuous watching of movies and TV shows without having to click to skip intros and credits or manually click to play the next episode.
 
 ## Notes
 - If the script's functionality does not work, ensure that Plex Skipper is installed and enabled.
