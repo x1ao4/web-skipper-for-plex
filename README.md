@@ -36,7 +36,7 @@ Make sure you have installed [Tampermonkey](https://www.tampermonkey.net/) or an
 
 ## Installation
 Option 1 (One-click Install)
-1. You can install Plex Skipper with a single click through the Greasy Fork link [Plex Skipper](https://greasyfork.org/zh-CN/scripts/474505-plex-skipper).
+1. You can install Plex Skipper with a single click through the Greasy Fork link [Plex Skipper](https://greasyfork.org/en/scripts/474505-plex-skipper).
 
 Option 2 (Manual Import)
 1. Clone or download the repository to a directory on your computer.
