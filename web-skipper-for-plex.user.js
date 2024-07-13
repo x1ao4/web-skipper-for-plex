@@ -20,7 +20,7 @@
 (function() {
     'use strict';
 
-    // 设置检查按钮和 “播放下一个” 元素的间隔
+    // 设置检查按钮和 “开启自动播放” 元素的间隔
     const interval = 1000;
 
     // 设置按钮的选择器
@@ -199,7 +199,7 @@
         return document.querySelector(selector) !== null;
     }
 
-    // 设置一个间隔来检查按钮和 “播放下一个” 元素，如果它们存在，则点击它们或按空格键
+    // 设置一个间隔来检查按钮和 “开启自动播放” 元素，如果它们存在，则点击它们或按空格键
     setInterval(() => {
         clickButton(buttonSelector, true);
         if (GM_getValue('autoPlayNext', true) && elementExists('label.AudioVideoUpNext-autoPlayOn-FMTHL1')) {
