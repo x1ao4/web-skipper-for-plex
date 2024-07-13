@@ -203,7 +203,13 @@
     setInterval(() => {
         clickButton(buttonSelector, true);
         if (GM_getValue('autoPlayNext', true) && elementExists('label.AudioVideoUpNext-autoPlayOn-FMTHL1')) {
-            document.dispatchEvent(new KeyboardEvent('keydown', {key: ' ', keyCode: 32}));
+            window.dispatchEvent(new KeyboardEvent('keydown', {
+                key: ' ',
+                code: 'Space',
+                keyCode: 32,
+                which: 32,
+                charCode: 32
+            }));
         }
     }, interval);
 })();
