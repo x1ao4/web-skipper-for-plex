@@ -52,7 +52,7 @@ Installed [Tampermonkey](https://www.tampermonkey.net/) or other user script man
 
 ## Installation
 ### Automatic Installation
-1. Install with one click from the [Web Skipper for Plex](https://greasyfork.org/zh-CN/scripts/474505-web-skipper-for-plex) page on Greasy Fork.
+1. Install with one click from the [Web Skipper for Plex](https://greasyfork.org/en/scripts/474505-web-skipper-for-plex) page on Greasy Fork.
 
 ### Manual Installation
 1. Download the latest release package from [Releases](https://github.com/x1ao4/web-skipper-for-plex/releases) and extract it to a local directory.
