@@ -35,9 +35,9 @@ WSP 每隔 1 秒会检查一遍页面上是否存在 `跳过片头`、`跳过片
 ## 赞赏
 如果你觉得这个项目对你有用，可以请我喝杯咖啡。如果你喜欢这个项目，可以给我一个⭐️。谢谢你的支持！
 
-<img width="399" alt="赞赏" src="https://github.com/x1ao4/edition-manager-for-plex/assets/112841659/b9e79a88-f2af-4c3a-8278-479454c6393a">
+<img width="399" alt="赞赏" src="https://github.com/user-attachments/assets/bdd2226b-6282-439d-be92-5311b6e9d29c">
 <br><br>
-<a href="#edition-manager-for-plex-zh">回到顶部</a>
+<a href="#web-skipper-for-plex-zh">回到顶部</a>
 <br>
 <br>
 <br>
@@ -79,6 +79,6 @@ The functions of auto-skip intro, auto-skip credits, and auto-play next are all 
 ## Support
 If you found this helpful, consider buying me a coffee or giving it a ⭐️. Thanks for your support!
 
-<img width="399" alt="Support" src="https://github.com/x1ao4/edition-manager-for-plex/assets/112841659/b9e79a88-f2af-4c3a-8278-479454c6393a">
+<img width="399" alt="Support" src="https://github.com/user-attachments/assets/bdd2226b-6282-439d-be92-5311b6e9d29c">
 <br><br>
 <a href="#web-skipper-for-plex-en">Back to Top</a>
