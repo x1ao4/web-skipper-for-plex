@@ -33,9 +33,9 @@ WSP 每隔 1 秒会检查一遍页面上是否存在 `跳过片头`、`跳过片
 - WSP 仅在 Plex Web 处于活动状态时生效（包括全屏状态）。
 
 ## 赞赏
-如果你觉得这个项目对你有用，可以请我喝杯咖啡。如果你喜欢这个项目，可以给我一个⭐️。谢谢你的支持！
+如果你觉得这个项目对你有用，可以考虑请我喝杯咖啡或者给我一个⭐️。谢谢你的支持！
 
-<img width="399" alt="赞赏" src="https://github.com/user-attachments/assets/bdd2226b-6282-439d-be92-5311b6e9d29c">
+<img width="383" alt="赞赏" src="https://github.com/user-attachments/assets/bdd2226b-6282-439d-be92-5311b6e9d29c">
 <br><br>
 <a href="#web-skipper-for-plex-zh">回到顶部</a>
 <br>
@@ -45,7 +45,7 @@ WSP 每隔 1 秒会检查一遍页面上是否存在 `跳过片头`、`跳过片
 # Web Skipper for Plex <a name="web-skipper-for-plex-en"></a>
 <a href="#web-skipper-for-plex-zh">切换至中文</a>
 
-With Web Skipper for Plex (hereinafter referred to as WSP), you can automatically skip intros, skip credits (when the item has intro or credits markers), and auto-play the next item (when there is a next item in the play queue) while watching videos on Plex Web. It also allows you to individually set the switch status of these three functions.
+With Web Skipper for Plex (hereafter referred to as WSP), you can automatically skip intros, skip credits (when the item has intro or credits markers), and auto-play the next item (when there is a next item in the play queue) while watching videos on Plex Web. It also allows you to individually set the switch status of these three functions.
 
 ## Requirements
 Installed [Tampermonkey](https://www.tampermonkey.net/) or other user script manager.
@@ -79,6 +79,6 @@ The functions of auto-skip intro, auto-skip credits, and auto-play next are all 
 ## Support
 If you found this helpful, consider buying me a coffee or giving it a ⭐️. Thanks for your support!
 
-<img width="399" alt="Support" src="https://github.com/user-attachments/assets/bdd2226b-6282-439d-be92-5311b6e9d29c">
+<img width="383" alt="Support" src="https://github.com/user-attachments/assets/bdd2226b-6282-439d-be92-5311b6e9d29c">
 <br><br>
 <a href="#web-skipper-for-plex-en">Back to Top</a>
