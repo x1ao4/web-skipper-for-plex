@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name               Web Skipper for Plex
 // @namespace          https://github.com/x1ao4/web-skipper-for-plex
-// @version            1.2
+// @version            1.2.1
 // @description        Automatically skip intros, credits, and auto-play the next item on Plex Web.
 // @description:zh-CN  在 Plex Web 上实现自动跳过片头、片尾和自动播放下一个项目功能。
 // @description:zh-HK  在 Plex Web 上實現自動跳過片頭、片尾和自動播放下一個項目功能。
@@ -180,14 +180,26 @@
     // 初始化菜单命令
     updateMenuCommands();
 
+    // Plex's Button ignores a plain click() unless the button has focus
+    // (onClick checks this._isFocused). The mousedown/mouseup path calls
+    // _press() without that check, so it also works when the window or the
+    // button has no focus. The trailing click only resets Plex's
+    // _preventOnClick flag and does not press the button twice.
+    function pressButton(button) {
+        const opts = {bubbles: true, cancelable: true, button: 0, view: window};
+        button.dispatchEvent(new MouseEvent('mousedown', opts));
+        button.dispatchEvent(new MouseEvent('mouseup', opts));
+        button.dispatchEvent(new MouseEvent('click', opts));
+    }
+
     // 如果存在按钮，则点击按钮
     function clickButton(selector, isEnabled) {
         if (isEnabled) {
             const buttons = document.querySelectorAll(selector);
             for (const button of buttons) {
-                let buttonType = getButtonType(button.innerText);
+                let buttonType = getButtonType(button.textContent.trim());
                 if (buttonType && GM_getValue(buttonType, true)) {
-                    button.click();
+                    pressButton(button);
                     break;
                 }
             }
